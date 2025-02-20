@@ -2,7 +2,8 @@
 /* Variables de color */
 :root {
     --rojo: rgb(93, 0, 11);
-    --rosa: rgb(242, 196, 205);
+    --rojo2: rgb(128, 53, 60);
+    --rosa: rgb(129, 57, 71);
     --blanco: #ffffff;
     --gris-oscuro: #333333;
     --gris-claro: #f4f4f4;
@@ -15,7 +16,7 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "sans-serif";
 }
 
 a {
@@ -26,7 +27,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: var(--rosa);
+  color: var(--rojo2);
   outline: none;
   text-decoration: none;
 }
@@ -150,7 +151,7 @@ h6 {
 }
 
 #header #logo img {
-    max-width: 40px;
+    max-width: 200px;
     height: auto;
 }
 #header #logo h1 {
@@ -167,7 +168,7 @@ h6 {
 #header #logo h1 a:hover {
   color: var(--blanco);
   padding-left: 10px;
-  border-left: 4px solid var(--rosa);
+  border-left: 0px solid var(--rosa);
 }
 
 #header #logo img {
