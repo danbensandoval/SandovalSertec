@@ -652,7 +652,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("../img/fondo1.png") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -865,7 +865,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("../img/fondo2.png") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
@@ -901,6 +901,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #111;
+}
+
+#facts .counters {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  flex-wrap: wrap; /* Permite que los elementos se acomoden en pantallas pequeñas */
+  gap: 20px; /* Espaciado opcional entre elementos */
+}
+
+#facts .counters .col-lg-3 {
+  flex: 1; /* Hace que los elementos ocupen el mismo espacio */
+  max-width: 200px; /* Ajusta el ancho */
+  text-align: center; /* Centra el texto */
 }
 
 #facts .facts-img {
@@ -1255,6 +1268,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin: 0 2px;
 }
+
+#team .row {
+  display: flex;
+  justify-content: center; /* Centra los miembros del equipo */
+  flex-wrap: wrap; /* Permite que se acomoden en pantallas pequeñas */
+}
+
+#team .member {
+  text-align: center; /* Centra el texto de cada miembro */
+}
+
 
 /* Contact Section
 --------------------------------*/
